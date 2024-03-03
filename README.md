@@ -1,1 +1,1 @@
-This is my website with all my relevant information and portfolio
+This is my professional website with all my relevant information and portfolio
