@@ -1,42 +1,214 @@
 <!DOCTYPE html>
 <html>
+
 <head>
- <title>Maxwell Lim's Portfolio</title>
- <link rel="stylesheet" type= "text/css" href="basic_style.css" />
+  <title>Maxwell Lim's Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="basic_style.css" />
 </head>
- 
+
 <style>
-p{padding-left: 30px;}
-a{padding-left: 30px;}
+  p {
+    padding-left: 30px;
+  }
+
+  a {
+    padding-left: 30px;
+  }
 </style>
-<body id = "home">
- <h1>Maxwell Lim's Portfolio</h1>
-  <h2>Education</h2>
-   <p>I am currently attending The University of Texas at Dallas for a Masters Degree in Computer Science with a specification in Data Science. 
-    I have also recieved a Bachelors degree in Computer Science from The University of Texas at Dallas</p>
-  <h2>Skills</h2>
-   <p>I have worked with Java and C++ for 4 to 6 years in an educational setting</p>
-   <p>I also have experience with using Python and R Programming Language.</p>
-   <p>I have experience using Git/Github and also with many IDEs such as Visual Studio and JetBrains suite of tools. </p>
-   
-  <h2>Coursework</h2>
-   <p>Intro to Machine Learning, Data Structures, Database Systems, Advanced Algorithms and Analysis, Computer Networks, Natural Language Processing, Statistical Methods for Data Science</p>
-  <h2>Projects</h2>
-   <h3>Spoonified - Senior Design Project</h3>
-    <p>This project included working with a team consisting of both computer science and electrical engineering majors on the design of a smart spoon which would track the 
-     pace and weight of bites that a person takes during a meal. I worked on the embedded code 
-     using C++, for the sensors of the spoon to be able to take the raw data and translate it to 
-     something which can be used to effectively track these metrics and communicate with a web 
-     app.</p>
-   <h3>Rules Based Chatbot</h3>
-    <p>The project task was to create a web scraper and rules based chatbot using nlp techniques. In this project I used python with many packages such as NLTK and BeautifulSoup.
-    I created a web crawler and scraper using BeautifulSoup to extract the text and hyperlinks from the html code. I then processed the text using various nlp techniques and TF-IDF to 
-	extract the 40 most important terms from all of the texts that were scraped. With these terms, I created a small knowledge base with terms and sentences. 
-	For the chatbot, I made an if-else tree to create a dialog flow with regex to guide it. The chatbot would also store the users information such as their name and number of visits,
-	as well as the answers to a short survey when they close the chatbot.</p>
-  <a href="index.html">Return Home</a> 
- 
-  
- 
+
+<body>
+  <nav class="navbar justify-content-end">
+    <div>
+      <ul class="navbar nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="about_me.html">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact_me.html"> Contact Me</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <h1>My Portfolio</h1>
+  <nav class="toc">
+    <div>
+      <ul class="nav nav-fill">
+        <li class="nav-item">
+          <a class="nav-link" href="#Education">Education</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Coursework">Coursework</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Projects">Projects</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div id="Education">
+    <h2>Education</h2>
+    <hr>
+    <div style = "padding: 10px 30px 20px 30px;">
+      <div class="d-flex justify-content-between">
+        <div>
+          <strong>University of Texas at Dallas</strong><br>
+          Master of Science in Computer Science
+        </div>
+        <div class="text-end">
+          Richardson, TX<br>
+          Jan. 2024 – Dec. 2025
+        </div>
+      </div>
+      <div class="d-flex justify-content-between">
+        <div>
+          <strong>University of Texas at Dallas</strong><br>
+          Bachelor of Science in Computer Science
+        </div>
+        <div class = "text-end">
+          Richardson, TX<br>
+          Aug. 2019 – May. 2023
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div id="Skills">
+    <h2>Skills</h2>
+    <hr>
+    <dl>
+      <dt>
+        Languages
+      </dt>
+      <dd>
+        Java, Python, C/C++, SQL (Postgres), R, HTML, JavaScript, PHP
+      </dd>
+      <dt>
+        Frameworks
+      </dt>
+      <dd>
+        PySpark, Hadoop, TensorFlow, PyTorch, XAMPP, Databricks
+      </dd>
+      <dt>
+        Developer Tools
+      </dt>
+      <dd>
+        Git, VS Code, Visual Studio, IntelliJ, AWS, RStudio
+      </dd>
+      <dt>
+        Libraries
+      </dt>
+      <dd>
+        Pandas, NumPy, SciPy, Matplotlib, NLTK, GraphFrames, Scikit-Learn, PRAW
+      </dd>
+      <dt>
+        Operating Systems
+      </dt>
+      <dd>
+        Windows, Linux(Fedora, CentOS, PopOS)
+      </dd>
+      <dt>
+        Software Applications
+      </dt>
+      <dd>
+        Microsoft Office, LibreOffice, Elasticsearch, Logstash, Kibana, Kafka
+      </dd>
+    </dl>
+  </div>
+  <div id="Coursework">
+    <h2>Coursework</h2>
+    <hr>
+    <div class="collumn2">
+      <ul>
+        <li>
+          Machine Learning
+        </li>
+        <li>
+          Data Structures
+        </li>
+        <li>
+          Database Systems
+        </li>
+        <li>
+          Advanced Algorithms and Analysis
+        </li>
+        <li>
+          Big Data Management and Analysis
+        </li>
+        <li>
+          Artificial Intelligence
+        </li>
+      </ul>
+    </div>
+    <div class="collumn2">
+      <ul>
+        <li>
+          Natural Language Processing
+        </li>
+        <li>
+          Statistical Methods for Data Science
+        </li>
+        <li>
+          Automata Theory
+        </li>
+        <li>
+          Web Programming Languages
+        </li>
+        <li>
+          Real Time Systems
+        </li>
+        <li>
+          Software Engineering
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="Projects">
+    <h2>Projects</h2>
+    <hr>
+    <dl>
+      <dt>Spoonified - Senior Design Project</dt>
+      <dd>This project included working with a team consisting of both computer science and electrical engineering
+        majors
+        on
+        the design of a smart spoon which would track the
+        pace and weight of bites that a person takes during a meal. I worked on the embedded code
+        using C++, for the sensors of the spoon to be able to take the raw data and translate it to
+        something which can be used to effectively track these metrics and communicate with a web
+        app.
+      </dd>
+      <dt>Rules Based Chatbot</dt>
+      <dd>The project task was to create a web scraper and rules based chatbot using nlp techniques. In this project I
+        used
+        python with many packages such as NLTK and BeautifulSoup.
+        I created a web crawler and scraper using BeautifulSoup to extract the text and hyperlinks from the html code. I
+        then processed the text using various nlp techniques and TF-IDF to
+        extract the 40 most important terms from all of the texts that were scraped. With these terms, I created a small
+        knowledge base with terms and sentences.
+        For the chatbot, I made an if-else tree to create a dialog flow with regex to guide it. The chatbot would also
+        store
+        the users information such as their name and number of visits,
+        as well as the answers to a short survey when they close the chatbot.
+      </dd>
+
+    </dl>
+  </div>
+
+  <a href="index.html">Return Home</a>
+
+
+
 </body>
-</html> 
+
+</html>

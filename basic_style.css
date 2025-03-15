@@ -1,46 +1,65 @@
  body {
-	 
-   background-color: darkgray;
-	 color: white;
-	 font-family: Helvetica;
+ 	margin: 0px 17%;
+ 	background-color: darkgray;
+ 	color: white;
+ 	font-family: Helvetica;
+	font-size: 20px;
  }
+
  h1 {
-	 text-align: center;
-	 font-size: 50px;
+ 	text-align: center;
+ 	font-size: 50px;
  }
- h2{
-	 font-size: 30px;
-	 padding-left: 10px;
+
+ h2 {
+ 	font-size: 30px;
+ 	padding-left: 10px;
  }
- h3{
-	 font-size: 24px;
-	 padding-left: 20px;
+
+ h3 {
+ 	font-size: 24px;
+ 	padding-left: 20px;
  }
- p{
-	 font-size: 20px;
-	 padding-left:10px;
+
+ p {
+ 	font-size: 20px;
+ 	padding-left: 10px;
  }
- 
- .collumn3 {
-	 float: left;
-	 width: 30%;
-	 padding: 20px;
+
+ ul {
+ 	font-size: 20px;
  }
- 
+
+ dt {
+ 	font-size: 22px;
+ 	padding-left: 30px;
+ }
+
+ dd {
+ 	font-size: 20px;
+ 	padding-left: 50px;
+ }
+
+ .collumn2 {
+ 	float: left;
+ 	width: 50%;
+ 	padding: 20px;
+ }
+
  .row:after {
-	 content: "";
-	 display: table;
-	 clear: both;
-	 padding-bottom: 30px;
+ 	content: "";
+ 	display: table;
+ 	clear: both;
+ 	padding-bottom: 30px;
  }
- 
- @media screen and (max-width:600px ){
-	 .collumn3{
-		 width:100%;
-	 }
+
+ @media screen and (max-width:1200px) {
+ 	.collumn2 {
+ 		width: 100%;
+ 	}
  }
- 
- #in_collumn{
-	padding-right: 30px;
-	padding-left: 30px;
+
+ #in_collumn {
+ 	padding-right: 30px;
+ 	padding-left: 30px;
  }
