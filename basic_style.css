@@ -63,3 +63,10 @@
  	padding-right: 30px;
  	padding-left: 30px;
  }
+ .toc {
+	position: sticky;
+	top: 0;
+	background: darkgray;
+	z-index: 1000;
+	padding-top: 20px;
+ }
